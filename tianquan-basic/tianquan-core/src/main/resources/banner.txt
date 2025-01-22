@@ -1,0 +1,8 @@
+  _______
+ /_  __(_)___ _____  ____ ___  ______ _____
+  / / / / __ `/ __ \/ __ `/ / / / __ `/ __ \
+ / / / / /_/ / / / / /_/ / /_/ / /_/ / / / /
+/_/ /_/\__,_/_/ /_/\__, /\__,_/\__,_/_/ /_/
+                     /_/        v@revision@
+
+${AnsiColor.BRIGHT_YELLOW} :: Powered by Spring Boot :: ${AnsiColor.DEFAULT}  v${spring-boot.version}

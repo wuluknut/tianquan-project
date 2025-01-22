@@ -1,0 +1,13 @@
+services:
+  pgsql:
+    image: postgres:17-alpine
+    ports:
+      - 5432:5432
+    networks:
+      - bridge_network
+    environment:
+      - TZ=Asia/Shanghai
+      - POSTGRES_DB=tianquan
+      - POSTGRES_PASSWORD=postgres
+networks:
+  bridge_network:

@@ -1,0 +1,22 @@
+server:
+  tomcat:
+    max-http-form-post-size: 50MB
+  compression:
+    enabled: true
+  servlet:
+    context-path: /tianquan
+  port: 7000
+spring:
+  application:
+    name: tianquan
+  profiles:
+    active: @profile.name@
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB
+  jackson:
+    default-property-inclusion: non_null
+  docker:
+    compose:
+      enabled: false
